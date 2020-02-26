@@ -5,12 +5,10 @@ provider "azurerm" {
     tenant_id       = "c3902891-109d-409f-a046-8454e72af7d5"
     subscription_id = "b37804fd-9149-4e72-8aa5-30d8256b2fe0"
 }
-
 resource "azurerm_resource_group" "rg" {
-  name     = "tfex-recovery_vaultmadhurtest"
+  name     = "tfex-recovery_vaultmadhurhappy"
   location = "eastus"
 }
-
 data "azurerm_subscription" "primary" {
 }
 
